@@ -13,7 +13,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     FLASK_ADMIN_SWATCH = 'cerulean'
     CKEDITOR_ENABLE_CODESNIPPET = True
-    CKEDITOR_FILE_UPLOADER = 'upload'
+    CKEDITOR_FILE_UPLOADER = 'users.upload'
 
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
