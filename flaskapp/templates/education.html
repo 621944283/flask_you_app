@@ -3,11 +3,15 @@
 
 
 {% for ed in education %}  
+<h3 class="my-1 p-4 text-primary">Education :</h3>
+                <div class="py-4 my-3">
+
+                </div>
                 <img class="border rounded-circle p-1 mx-auto mb-3 my-1" src="{{url_for('static',filename='education_thumbnail/'+ed.thumbnail)}}" style="width: 250px; height: 250px;">                
 
 <div class="container py-3 my-3">
 
-    <div class="row">
+    <div class="row my-5">
       <h3>{{ed.title}}</h3>
       <hr class="text-info">
         <!-- article contents -->
