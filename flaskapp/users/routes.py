@@ -57,7 +57,7 @@ def upload():
     random_hex = secrets.token_hex(8)    
     image_name = random_hex+extension
     f.save(os.path.join(current_app.root_path, 'static/media', image_name))
-    url = url_for('uploaded_files', filename=image_name)
+    url = url_for('users.uploaded_files', filename=image_name)
     return upload_success(url, filename=image_name)  # return upload_success call
 
 
